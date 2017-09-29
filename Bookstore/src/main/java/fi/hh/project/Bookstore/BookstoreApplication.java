@@ -39,6 +39,8 @@ public class BookstoreApplication {
 			repository.save(new Book("Java Server Side Programming", "Mukesh Prasad", 2013, "952-5254634646", 32.99, drepository.findByName("IT").get(0)));
 			repository.save(new Book("Yourney Around the World", "Andy Malcolm", 2015, "952-5254567646", 47.00, drepository.findByName("Travel").get(0)));
 			repository.save(new Book("Into the Woods", "Henry Lloyd", 2001, "665-5254567646", 23.00, drepository.findByName("Mystery").get(0)));
+			repository.save(new Book("Healthy Mind", "Lindsey Danes", 2012, "672-5254567646", 9.99, drepository.findByName("Health").get(0)));
+			repository.save(new Book("Remember me", "Ella Molnar", 2016, "665-5254573326", 15.99, drepository.findByName("Romance").get(0)));
 
 			
 			log.info("fetch all books");
