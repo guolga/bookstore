@@ -11,6 +11,8 @@ import fi.hh.project.Bookstore.domain.Book;
 import fi.hh.project.Bookstore.domain.BookRepository;
 import fi.hh.project.Bookstore.domain.CategoryRepository;
 import fi.hh.project.Bookstore.domain.Category;
+import fi.hh.project.Bookstore.domain.User;
+import fi.hh.project.Bookstore.domain.UserRepository;
 
 @SpringBootApplication
 public class BookstoreApplication {
@@ -22,7 +24,7 @@ public class BookstoreApplication {
 	} 
 	
 	@Bean
-	public CommandLineRunner bookDemo(BookRepository repository, CategoryRepository drepository) {
+	public CommandLineRunner bookDemo(BookRepository repository, CategoryRepository drepository, UserRepository urepository) {
 		return (args) -> {
 			log.info("save new books");
 			
@@ -42,6 +44,14 @@ public class BookstoreApplication {
 			repository.save(new Book("Healthy Mind", "Lindsey Danes", 2012, "672-5254567646", 9.99, drepository.findByName("Health").get(0)));
 			repository.save(new Book("Remember me", "Ella Molnar", 2016, "665-5254573326", 15.99, drepository.findByName("Romance").get(0)));
 
+			User user1 = new User("guolga", "$2a$06$qSQDWssUvbMYkRHSTzbzc.kcmRIPXBwJpHyr4rxIKU/vnso6lojqK", "guolga@gmail.com", "USER");
+			User user2 = new User("admin", "$2a$06$agdWTMxFom/Fj0o5sRAbOu5w57OjSRRNT9KnG.D.jnDG4yhs3A8PO", "admin@bookstore.fi", "ADMIN");
+			User user3 = new User("nadezhda", "$2a$06$bNRQIPz0WL6AHG2pqlShi.t8aruWYO/ryMIMRASh5o9CPBmfUnJT.", "nadezhda@myy.haaga-helia.fi", "USER");
+
+			urepository.save(user1);
+			urepository.save(user2);
+			urepository.save(user3);
+			
 			
 			log.info("fetch all books");
 			for (Book book : repository.findAll()) {
