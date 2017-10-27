@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BookRepositoryTest" project="Bookstore" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="fi.hh.project.Bookstore.BookRepositoryTest" time="0.074">
+    <testcase name="createNewBook" classname="fi.hh.project.Bookstore.BookRepositoryTest" time="0.04"/>
+    <testcase name="findByTitleShouldReturnBook" classname="fi.hh.project.Bookstore.BookRepositoryTest" time="0.03"/>
+    <testcase name="deleteBook" classname="fi.hh.project.Bookstore.BookRepositoryTest" time="0.004"/>
+  </testsuite>
+</testrun>

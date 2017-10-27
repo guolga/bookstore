@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="C:\ProgramData\Microsoft\AppV\Client\Integration\56CE7ED2-7B7B-4F46-B794-5C8FF626F7FC\Root\VFS\AppVPackageDrive\Install\eclipse\JRE" version="1.8.0_131">
+<bootpath>
+<entry path="C:\ProgramData\Microsoft\AppV\Client\Integration\56CE7ED2-7B7B-4F46-B794-5C8FF626F7FC\Root\VFS\AppVPackageDrive\Install\eclipse\JRE\lib\resources.jar"/>
+<entry path="C:\ProgramData\Microsoft\AppV\Client\Integration\56CE7ED2-7B7B-4F46-B794-5C8FF626F7FC\Root\VFS\AppVPackageDrive\Install\eclipse\JRE\lib\rt.jar"/>
+<entry path="C:\ProgramData\Microsoft\AppV\Client\Integration\56CE7ED2-7B7B-4F46-B794-5C8FF626F7FC\Root\VFS\AppVPackageDrive\Install\eclipse\JRE\lib\sunrsasign.jar"/>
+<entry path="C:\ProgramData\Microsoft\AppV\Client\Integration\56CE7ED2-7B7B-4F46-B794-5C8FF626F7FC\Root\VFS\AppVPackageDrive\Install\eclipse\JRE\lib\jsse.jar"/>
+<entry path="C:\ProgramData\Microsoft\AppV\Client\Integration\56CE7ED2-7B7B-4F46-B794-5C8FF626F7FC\Root\VFS\AppVPackageDrive\Install\eclipse\JRE\lib\jce.jar"/>
+<entry path="C:\ProgramData\Microsoft\AppV\Client\Integration\56CE7ED2-7B7B-4F46-B794-5C8FF626F7FC\Root\VFS\AppVPackageDrive\Install\eclipse\JRE\lib\charsets.jar"/>
+<entry path="C:\ProgramData\Microsoft\AppV\Client\Integration\56CE7ED2-7B7B-4F46-B794-5C8FF626F7FC\Root\VFS\AppVPackageDrive\Install\eclipse\JRE\lib\jfr.jar"/>
+<entry path="C:\ProgramData\Microsoft\AppV\Client\Integration\56CE7ED2-7B7B-4F46-B794-5C8FF626F7FC\Root\VFS\AppVPackageDrive\Install\eclipse\JRE\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\ProgramData\Microsoft\AppV\Client\Integration\56CE7ED2-7B7B-4F46-B794-5C8FF626F7FC\Root\VFS\AppVPackageDrive\Install\eclipse\JRE\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\ProgramData\Microsoft\AppV\Client\Integration\56CE7ED2-7B7B-4F46-B794-5C8FF626F7FC\Root\VFS\AppVPackageDrive\Install\eclipse\JRE\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\ProgramData\Microsoft\AppV\Client\Integration\56CE7ED2-7B7B-4F46-B794-5C8FF626F7FC\Root\VFS\AppVPackageDrive\Install\eclipse" version="1.8.0_131">
+<bootpath>
+<entry path="C:\ProgramData\Microsoft\AppV\Client\Integration\56CE7ED2-7B7B-4F46-B794-5C8FF626F7FC\Root\VFS\AppVPackageDrive\Install\eclipse\jre\lib\resources.jar"/>
+<entry path="C:\ProgramData\Microsoft\AppV\Client\Integration\56CE7ED2-7B7B-4F46-B794-5C8FF626F7FC\Root\VFS\AppVPackageDrive\Install\eclipse\jre\lib\rt.jar"/>
+<entry path="C:\ProgramData\Microsoft\AppV\Client\Integration\56CE7ED2-7B7B-4F46-B794-5C8FF626F7FC\Root\VFS\AppVPackageDrive\Install\eclipse\jre\lib\sunrsasign.jar"/>
+<entry path="C:\ProgramData\Microsoft\AppV\Client\Integration\56CE7ED2-7B7B-4F46-B794-5C8FF626F7FC\Root\VFS\AppVPackageDrive\Install\eclipse\jre\lib\jsse.jar"/>
+<entry path="C:\ProgramData\Microsoft\AppV\Client\Integration\56CE7ED2-7B7B-4F46-B794-5C8FF626F7FC\Root\VFS\AppVPackageDrive\Install\eclipse\jre\lib\jce.jar"/>
+<entry path="C:\ProgramData\Microsoft\AppV\Client\Integration\56CE7ED2-7B7B-4F46-B794-5C8FF626F7FC\Root\VFS\AppVPackageDrive\Install\eclipse\jre\lib\charsets.jar"/>
+<entry path="C:\ProgramData\Microsoft\AppV\Client\Integration\56CE7ED2-7B7B-4F46-B794-5C8FF626F7FC\Root\VFS\AppVPackageDrive\Install\eclipse\jre\lib\jfr.jar"/>
+<entry path="C:\ProgramData\Microsoft\AppV\Client\Integration\56CE7ED2-7B7B-4F46-B794-5C8FF626F7FC\Root\VFS\AppVPackageDrive\Install\eclipse\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\ProgramData\Microsoft\AppV\Client\Integration\56CE7ED2-7B7B-4F46-B794-5C8FF626F7FC\Root\VFS\AppVPackageDrive\Install\eclipse\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\ProgramData\Microsoft\AppV\Client\Integration\56CE7ED2-7B7B-4F46-B794-5C8FF626F7FC\Root\VFS\AppVPackageDrive\Install\eclipse\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

@@ -1,0 +1,5 @@
+package fi.hh.project.Bookstore;
+
+public class BookRepositoryTest {
+
+}
